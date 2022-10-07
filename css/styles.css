@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
