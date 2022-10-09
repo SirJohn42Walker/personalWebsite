@@ -2,18 +2,34 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(145deg, ivory, cornsilk, bisque, burlywood);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: linear-gradient(145deg, bisque, cornsilk);
+  border: 5px solid salmon;
+  padding: 0 15px;
+}
+
 h1,
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
 }
 
-.nav {
-  text-align: center;
+.navbar {
+  display: flex;
+  justify-content: space-evenly; /*Well, that's not working. Like, at all. Why though?*/
 }
 
-body {
-  background-color: bisque;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.profile-picture {
+  width: 20em;
+  height: auto;
+  border-radius: 15em;
+  border: 5px solid burlywood;
 }
